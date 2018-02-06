@@ -32,9 +32,13 @@ $(document).ready(function(){
    
    function fade( )
     {
-        $('form').fadeOut(2000);
-        $('p#p2').fadeIn(2000);
-    }               
+        $('form').fadeOut(2000, fdIn);
+     
+    }
+
+   function fdIn() { $('p#p2').fadeIn(2000); }
+
+               
   
    function loop(box)
     {  
