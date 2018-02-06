@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head><title>HW8</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+<body onbeforeunload = "return fade()"> 
+<center>
+<br />
+<br />
+<br />
+<form>
+  <input  type="text"  class="one" /><input  type="text"  class="two" /><input  type="text"  class="three" />
+  <br /><br />
+  <p id="msg"></p>
+  <br />
+  <input type="button" id="btn" value="Spin Again" />
+  <br /><br />
+
+  <!--    I could not get  'onbeforeunload'  event  handler to work, so I added this button to do a fading function    -->
+
+  <input type="button" id="fade" value="click to do fading" />
+
+</form>
+<p id="p2">Goodbye</p>
+</center>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="functions.js"></script>
+</body>
+</html>
